@@ -5,16 +5,6 @@ body {
   align-items: center;
 }
 
-.main-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(246, 246, 255);
-  flex-basis: 1400px;
-  flex-grow: 0;
-  justify-content: space-between;
-}
-
 h1 {
   font-size: 70px;
   font-weight: 900;
@@ -22,9 +12,17 @@ h1 {
   margin: 20px;
 }
 
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 246, 255);
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
+  gap: 200px;
 }
 
 button {
