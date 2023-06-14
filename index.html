@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      crossorigin="anonymous"
+      integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY="
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <title>Back to school 🤢</title>
+  </head>
+  <body>
+    <h1>🫣 B2S Embedding 🫣</h1>
+    <div class="main-body">
+      <div class="buttons">
+        <div class="exportButtons">
+          <button id="exportPDF">Export PDF</button>
+          <button id="exportPowerpoint">Export to PowerPoint</button>
+          <button id="exportImage">Export Image</button>
+        </div>
+
+        <div class="filterObjects">
+          <input type="number" placeholder="Min Value" id="minValue" />
+          <input type="number" placeholder="Max Value" id="maxValue" />
+          <button id="filterButton">Filter</button>
+        </div>
+      </div>
+
+      <!-- This is where we will put the dashy -->
+      <hr />
+      <h2>Filters</h2>
+
+      <div id="embedViz">
+        <script src="app.js" defer></script>
+      </div>
+    </div>
+  </body>
+</html>

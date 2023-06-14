@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(246, 246, 255);
+  flex-basis: 1400px;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: grey;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: rgb(60, 60, 152);
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  border-color: whitesmoke;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: rgb(60, 60, 152);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px;
+  border-color: rgb(60, 60, 152);
+}
+
+#embedViz {
+  text-align: center;
+}
+
+div {
+  object-position: center;
+}
